@@ -1,0 +1,72 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\Administrator\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Calibre2\;D:\software\Git\cmd;C:\Program Files\nodejs\;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\software\微信web开发者工具\dll;C:\Users\Administrator\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python38\;D:\UserScoop\shims;C:\Users\Administrator\scoop\shims;D:\江湖杂学\Tools\WinNT;D:\江湖杂学\MSDev98\Bin;D:\江湖杂学\Tools;D:\独孤九剑\vc6.0\VC98\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\AppServ\Apache24\bin;C:\AppServ\php7;C:\AppServ\MySQL\bin;C:\Users\Administrator\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\software\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/@testing-library%2fjest-dom: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:31181
+      at ClientRequest.onError (C:\Program Files\nodejs\node_modules\yarn\lib\cli.js:152376:17)
+      at Object.onceWrapper (node:events:628:26)
+      at ClientRequest.emit (node:events:513:28)
+      at Socket.socketErrorListener (node:_http_client:481:9)
+      at Socket.emit (node:events:513:28)
+      at emitErrorNT (node:internal/streams/destroy:157:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+      "name": "router-v5",
+      "version": "0.1.0",
+      "private": true,
+      "dependencies": {
+          "@testing-library/jest-dom": "^5.14.1",
+          "@testing-library/react": "^13.0.0",
+          "@testing-library/user-event": "^13.2.1",
+          "react": "^18.2.0",
+          "react-dom": "^18.2.0",
+          "react-router-dom": "6",
+          "react-scripts": "5.0.1",
+          "web-vitals": "^2.1.0"
+      },
+      "scripts": {
+          "start": "react-scripts start",
+          "build": "react-scripts build",
+          "test": "react-scripts test",
+          "eject": "react-scripts eject"
+      },
+      "eslintConfig": {
+          "extends": [
+              "react-app",
+              "react-app/jest"
+          ]
+      },
+      "browserslist": {
+          "production": [
+              ">0.2%",
+              "not dead",
+              "not op_mini all"
+          ],
+          "development": [
+              "last 1 chrome version",
+              "last 1 firefox version",
+              "last 1 safari version"
+          ]
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

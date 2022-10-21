@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.4d59a645.css","mappings":"AAAA,oBACI,SACJ","sources":["components/Menu.module.css"],"sourcesContent":[".active {\r\n    color: red;\r\n}\r\n"],"names":[],"sourceRoot":""}

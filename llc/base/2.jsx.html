@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head></head>
+
+    <body>
+        <div id="root"></div>
+
+        <script src="./scipt/react.development.js"></script>
+        <script src="./scipt/react-dom.development.js"></script>
+        <script src="./scipt/babel.min.js"></script>
+        <script type="text/babel">
+            let foo = ['1', 'w', 's']
+            let bar = (
+                <ul>
+                    {foo.map((i) => (
+                        <li>{i}</li>
+                    ))}
+                </ul>
+            )
+            const root = ReactDOM.createRoot(document.getElementById('root'))
+
+            root.render(bar)
+        </script>
+    </body>
+</html>

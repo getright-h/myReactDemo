@@ -1,0 +1,27 @@
+.date {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.month {
+    background: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.day {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+}

@@ -1,0 +1,30 @@
+.filterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 120rem;
+    background-color: #fff;
+    z-index: 999;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.iSearchInput {
+    padding-left: 60rem;
+    width: 600rem;
+    height: 60rem;
+    border-radius: 32rem;
+    background-color: #f2f2f2;
+    border: none;
+    outline: none;
+    font-size: 30rem;
+}
+
+.iSearchIcon {
+    position: absolute;
+    left: 80rem;
+    color: rgb(140, 139, 140);
+    font-size: 40rem;
+}

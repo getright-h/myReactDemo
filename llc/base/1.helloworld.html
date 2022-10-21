@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./scipt/react.development.js"></script>
+    <script src="./scipt/react-dom.development.js"></script>
+    <script src="./scipt/babel.min.js"></script>
+</head>
+
+<body>
+    <button id="btn">btn</button>
+    <div id="root"></div>
+
+    <script>
+
+        const foo = React.createElement('div', {}, 'wuhu~~')
+        const root = ReactDOM.createRoot(document.getElementById('root'))
+
+        // 创建第一个React元素
+        const button = React.createElement(
+            'button',
+            {
+                type: 'button',
+                className: 'hello',
+                onClick: () => {
+                    alert('你点我干嘛')
+                },
+            },
+            '点我一下'
+        )
+        // 创建第一个div
+        const div = React.createElement('div', {}, '我是一个div', button)
+
+
+
+        root.render(div)
+        const btn = document.getElementById('btn')
+        btn.addEventListener('click', () => {
+            const button = React.createElement(
+                'button',
+                {
+                    type: 'button',
+                    className: 'hello',
+                    onClick: () => {
+                        alert('what the fuck ?')
+                    },
+                },
+                'click me'
+            )
+
+            const div = React.createElement('div', {}, '我是一个div', button)
+
+            root.render(div)
+        })
+
+            // root.render(foo)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            let bar = {
+                c: {
+                    a: 1,
+                    b: 2,
+                },
+            }
+            foo(bar)
+            foo2(bar)
+            foo3(bar)
+            foo4(bar)
+            function foo({ c }) {
+                console.log(c)
+                let { a, b } = { ...c }
+                console.log(a)
+            }
+
+            function foo2(bar) {
+                console.log(bar)
+            }
+            function foo3(...bar) {
+                console.log(bar)
+            }
+            function foo4({ ...bar }) {
+                console.log(bar)
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: #bfa;
+}
+
+.foo {
+    width: 800px;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #eae2b7;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin: 16px;
+    border-radius: 20px;
+    background: #fcbf49;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+.date {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.month {
+    background: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.day {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.todo {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #fcbf49;
+}
+.do-what {
+    color: black;
+    font-weight: 500;
+}
+.time {
+    color: red;
+    font-weight: 500;
+}

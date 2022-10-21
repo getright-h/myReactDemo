@@ -1,0 +1,32 @@
+{
+    "name": "3.first_react_project",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.1.2",
+        "@fortawesome/free-regular-svg-icons": "^6.1.2",
+        "@fortawesome/free-solid-svg-icons": "^6.1.2",
+        "@fortawesome/react-fontawesome": "^0.2.0",
+        "@reduxjs/toolkit": "^1.8.5",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-redux": "^8.0.2",
+        "react-scripts": "^5.0.1"
+    },
+    "scripts": {
+        "start": "react-scripts start"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

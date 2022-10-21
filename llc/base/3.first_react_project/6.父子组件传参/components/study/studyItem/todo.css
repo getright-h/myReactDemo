@@ -1,0 +1,16 @@
+.todo {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #fcbf49;
+}
+.do-what {
+    color: black;
+    font-weight: 500;
+}
+.time {
+    color: red;
+    font-weight: 500;
+}

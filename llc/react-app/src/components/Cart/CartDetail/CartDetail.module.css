@@ -1,0 +1,32 @@
+.detailBox {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 750rem;
+    max-height: 800rem;
+    padding: 20rem;
+    padding-bottom: 120rem;
+    border-top-left-radius: 30rem;
+    border-top-right-radius: 30rem;
+
+    background: white;
+    bottom: 0;
+    overflow: auto;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    font-size: 40rem;
+    font-weight: 600;
+}
+.trash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(164, 170, 170);
+    font-size: 30rem;
+}

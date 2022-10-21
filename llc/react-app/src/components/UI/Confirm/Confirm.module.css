@@ -1,0 +1,40 @@
+.outerbox {
+    z-index: 9999;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 600rem;
+    height: 500rem;
+    background: white;
+    border-radius: 20rem;
+}
+
+.text {
+    font-size: 40rem;
+}
+.btns {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    width: 200rem;
+    height: 80rem;
+    border-radius: 20rem;
+    background: rgb(157, 157, 154);
+    border: none;
+}
+.ok {
+    background-color: #fcbf49;
+}
